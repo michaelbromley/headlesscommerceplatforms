@@ -1,5 +1,6 @@
 export type WithOptionalNote<T> = { value: T; note?: string; }
-export type FeatureItem = WithOptionalNote<{ support: 'full' | 'partial' | 'paid-plugin' | 'free-plugin'  | 'none'; }>;
+export type SupportLevel = 'full' | 'partial' | 'paid-plugin' | 'free-plugin'  | 'none';
+export type FeatureItem = WithOptionalNote<{ support: SupportLevel; }>;
 
 export interface FeatureList {
     // Inventory features
