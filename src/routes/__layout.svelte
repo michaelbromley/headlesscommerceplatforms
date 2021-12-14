@@ -10,7 +10,7 @@
 </main>
 
 <footer>
-    <p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+    <p>Source: <a href="https://github.com/michaelbromley/headlesscommerceplatforms">github.com/michaelbromley/headlesscommerceplatforms</a></p>
 </footer>
 
 <style>
