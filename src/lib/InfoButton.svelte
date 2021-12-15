@@ -36,5 +36,5 @@
             />
         </svg>
     </button>
-    <div class="absolute -top-2 left-8 p-2 bg-indigo-50 rounded shadow z-10 max-w-32" class:block={visible} class:hidden={!visible}>{label}</div>
+    <div class="absolute -top-2 left-8 p-2 bg-indigo-500 text-white rounded shadow z-10 max-w-32" class:block={visible} class:hidden={!visible}>{label}</div>
 </div>

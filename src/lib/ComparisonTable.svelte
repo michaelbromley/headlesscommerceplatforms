@@ -20,7 +20,7 @@
                         <tr class='hidden sm:table-row'
                             ><td class="px-2 py-2 sm:px-5 sm:py-3 whitespace-nowrap sticky left-0 bg-gray-100">Solution</td>
                             {#each table.data as solution}
-                                <td class="sticky top-0 px-2 py-2 sm:px-5 sm:py-3 bg-white bg-opacity-70 whitespace-nowrap text-lg"
+                                <td class="sticky top-0 px-2 py-2 sm:px-5 sm:py-3 bg-gradient-to-b from-white via-white to-transparent bg-opacity-70 whitespace-nowrap text-lg"
                                     >{solution.name}</td
                                 >
                             {/each}
@@ -40,7 +40,7 @@
                         </tr>
                         {#each properties as prop}
                             <tr class="flex flex-col sm:table-row group">
-                                <td class="px-2 py-2 sm:px-5 sm:py-3 whitespace-nowrap group-hover:bg-gray-50 bg-gray-100"
+                                <td class="px-2 py-2 sm:px-5 sm:py-3 whitespace-nowrap group-hover:bg-indigo-50 bg-gray-100"
                                     >
                                     <div class='flex space-x-2'>
                                     <span>{camelToSentence(prop)}</span>
@@ -49,7 +49,7 @@
                                 </td
                                 >
                                 {#each table.data as solution}
-                                    <td class="px-2 py-2 sm:px-5 sm:py-3 flex sm:table-cell whitespace-nowrap group-hover:bg-gray-50"
+                                    <td class="px-2 py-2 sm:px-5 sm:py-3 flex sm:table-cell whitespace-nowrap group-hover:bg-indigo-50"
                                         >
                                         <span class='sm:hidden text-sm mr-2'>{solution.name}:</span>
                                         <ValueWithNote item={solution[prop]} /></td

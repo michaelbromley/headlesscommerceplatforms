@@ -1,5 +1,5 @@
-export type WithOptionalNote<T> = { value: T; note?: string; }
-export type SupportLevel = 'full' | 'partial' | 'paid-plugin' | 'free-plugin'  | 'none';
+export type WithOptionalNote<T> = { value: T; note?: string; url?: string; }
+export type SupportLevel = 'full' | 'partial' | 'paid-plugin' | 'free-plugin'  | 'none' | 'unknown';
 export type FeatureItem = WithOptionalNote<{ support: SupportLevel; }>;
 
 export interface FeatureList {
@@ -12,6 +12,8 @@ export interface FeatureList {
     bundleProducts: FeatureItem;
     /** Stock levels are tracked when orders are placed or new stock comes in */
     stockTracking: FeatureItem;
+    /** Stock can be tracked across multiple warehouse locations */
+    multiWarehouse: FeatureItem;
     /** Ability to search products by keyword */
     productSearch: FeatureItem;
     /** Ability to filter products by facet/attributes */
@@ -48,8 +50,12 @@ export interface FeatureList {
     guestCheckout: FeatureItem;
     /** The workflow of placing an order can be tailored to match the business processes */
     orderProcessIsConfigurable: FeatureItem;
+    /** Orders can be created by the administrator */
+    adminCreatedOrders: FeatureItem;
     /** A single order can be fulfilled in multiple batches */
     multipleFulfillments: FeatureItem;
+    /** Does the system handle returns of goods */
+    returns: FeatureItem;
     /** Invoices can be generated for orders */
     invoiceGeneration: FeatureItem;
 
@@ -105,7 +111,7 @@ export interface SolutionInfo extends FeatureList {
     /** The website url of the solution */
     website: string;
     /** Does this solution expose an API for storefront operations? */
-    storefrontApi: WithOptionalNote<Array<'graphql' | 'rest' | 'none'>>;
+    storefrontApi: WithOptionalNote<Array<'graphql' | 'REST' | 'none'>>;
     /** Does this solution expose an API for administrative operations? */
-    adminApi: WithOptionalNote<Array<'graphql' | 'rest' | 'none'>>;
+    adminApi: WithOptionalNote<Array<'graphql' | 'REST' | 'none'>>;
 }

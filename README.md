@@ -1,22 +1,12 @@
-# create-svelte
+# Headless Commerce Platforms
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+This is a feature comparison of various headless e-commerce platforms.
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm init svelte@next
-
-# create a new project in my-app
-npm init svelte@next my-app
-```
-
-> Note: the `@next` is temporary
+If any of the data contained in the table is incorrect, please make a pull request. The data is found in the [src/solutions](/src/solutions) directory.
 
 ## Developing
+
+This project is built with [SvelteKit](https://kit.svelte.dev/).
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 

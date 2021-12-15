@@ -20,6 +20,7 @@ const propertyLabel: { [K in keyof SolutionInfo]: string } = {
     bundleProducts:
         'Products composed of other products, which can be purchased as a single order line',
     stockTracking: 'Stock levels are tracked when orders are placed or new stock comes in',
+    multiWarehouse: 'Stock can be tracked across multiple warehouse locations',
     productSearch: 'Ability to search products by keyword',
     facetedSearch: 'Ability to filter products by facet/attributes',
     productCategories: 'Ability to groups products together into hierarchies',
@@ -39,7 +40,9 @@ const propertyLabel: { [K in keyof SolutionInfo]: string } = {
     guestCheckout: 'Customers can checkout without registering an account',
     orderProcessIsConfigurable:
         'The workflow of placing an order can be tailored to match the business processes',
+    adminCreatedOrders: 'Orders can be created by the administrator',
     multipleFulfillments: 'A single order can be fulfilled in multiple batches',
+    returns: 'Does the system handle returns of goods',
     invoiceGeneration: 'Invoices can be generated for orders',
     // Customer features
     customerAccounts: 'Customers can create accounts',
