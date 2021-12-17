@@ -23,6 +23,7 @@
 
 <script lang="ts">
     import ComparisonTable from '$lib/ComparisonTable.svelte';
+    import EditForm from '$lib/EditForm.svelte';
 	export let table;
 
 </script>
@@ -32,6 +33,6 @@
 </svelte:head>
 
 <ComparisonTable {table}></ComparisonTable>
-
+<EditForm></EditForm>
 <style>
 </style>

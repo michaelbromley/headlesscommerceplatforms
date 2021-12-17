@@ -10,7 +10,7 @@
 </main>
 
 <footer>
-    <p>Source: <a href="https://github.com/michaelbromley/headlesscommerceplatforms">github.com/michaelbromley/headlesscommerceplatforms</a></p>
+    <p><a href="https://github.com/michaelbromley/headlesscommerceplatforms">Source on GitHub</a></p>
 </footer>
 
 <style>

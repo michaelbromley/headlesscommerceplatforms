@@ -42,12 +42,8 @@
     }
 </script>
 
-<span
-    class="inline-flex items-center  text-xs font-medium"
->
-    <div class="flex px-2 py-0.5 rounded {getLabelColor(
-            support
-        )}">
+<span class="inline-flex items-center  text-xs font-medium">
+    <div class="flex px-2 py-0.5 rounded {getLabelColor(support)}">
         <svg
             xmlns="http://www.w3.org/2000/svg"
             class="h-4 w-4"
@@ -58,7 +54,5 @@
         </svg>
         <span class="ml-1">{support}</span>
     </div>
-    <div class='flex items-center ml-2 pl-1 border-l border-gray-300'>
-        <slot />
-    </div>
+    <slot />
 </span>

@@ -15,7 +15,7 @@
     }
 </script>
 
-<div class="relative flex" class:hidden={!label}>
+<div class="relative flex opacity-0 group-hover:opacity-100 transition-opacity" class:hidden={!label}>
     <button
         on:mouseenter={show}
         on:mouseleave={hide}
