@@ -15,17 +15,17 @@
     }
 </script>
 
-<div class="relative" class:hidden={!label}>
+<div class="relative flex" class:hidden={!label}>
     <button
         on:mouseenter={show}
         on:mouseleave={hide}
         on:click={toggle}
         type="button"
-        class="inline-flex items-center rounded-sm text-indigo-300 hover:text-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+        class="inline-flex items-center rounded-sm text-gray-400 hover:text-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
     >
         <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-5 w-5"
+            class="h-4 w-4"
             viewBox="0 0 20 20"
             fill="currentColor"
         >
@@ -36,5 +36,5 @@
             />
         </svg>
     </button>
-    <div class="absolute -top-2 left-8 p-2 bg-indigo-500 text-white rounded shadow z-10 max-w-32" class:block={visible} class:hidden={!visible}>{label}</div>
+    <div class="absolute top-6 -left-12 p-2 bg-indigo-500 text-white rounded shadow z-10 w-32 whitespace-normal" class:block={visible} class:hidden={!visible}>{label}</div>
 </div>

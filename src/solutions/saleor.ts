@@ -14,7 +14,7 @@ const features: SelfHostedFrameworkInfo = {
     // Inventory features
     productVariants: {
         value: { support: 'full' },
-        url: 'https://docs.saleor.io/docs/3.0/developer/products'
+        urls: ['https://docs.saleor.io/docs/3.0/developer/products']
     },
     configurableProducts: { value: { support: 'unknown' } },
     bundleProducts: { value: { support: 'unknown' } },
@@ -24,11 +24,11 @@ const features: SelfHostedFrameworkInfo = {
     facetedSearch: { value: { support: 'unknown' } },
     productCategories: {
         value: { support: 'full' },
-        url: 'https://docs.saleor.io/docs/2.10/dashboard/catalog/categories'
+        urls: ['https://docs.saleor.io/docs/2.10/dashboard/catalog/categories']
     },
     customAttributes: {
         value: { support: 'full' },
-        url: 'https://docs.saleor.io/docs/2.10/developer/metadata'
+        urls: ['https://docs.saleor.io/docs/2.10/developer/metadata']
     },
     tieredPricing: { value: { support: 'unknown' } },
     assetManagement: { value: { support: 'unknown' } },
@@ -36,11 +36,11 @@ const features: SelfHostedFrameworkInfo = {
     // Localization features
     multiStore: {
         value: { support: 'unknown' },
-        url: 'https://docs.saleor.io/docs/3.0/developer/channels'
+        urls: ['https://docs.saleor.io/docs/3.0/developer/channels']
     },
     multiCurrency: {
         value: { support: 'full' },
-        url: 'https://docs.saleor.io/docs/3.0/developer/channels'
+        urls: ['https://docs.saleor.io/docs/3.0/developer/channels']
     },
     multiLanguage: { value: { support: 'full' } },
 
@@ -48,15 +48,15 @@ const features: SelfHostedFrameworkInfo = {
     promotions: { value: { support: 'full' } },
     voucherCodes: {
         value: { support: 'full' },
-        url: 'https://docs.saleor.io/docs/3.0/dashboard/discounts/vouchers'
+        urls: ['https://docs.saleor.io/docs/3.0/dashboard/discounts/vouchers']
     },
     freeShipping: {
         value: { support: 'full' },
-        url: 'https://docs.saleor.io/docs/3.0/dashboard/discounts/vouchers'
+        urls: ['https://docs.saleor.io/docs/3.0/dashboard/discounts/vouchers']
     },
     giftCards: {
         value: { support: 'full' },
-        url: 'https://docs.saleor.io/docs/3.0/developer/api-reference/objects/gift-card'
+        urls: ['https://docs.saleor.io/docs/3.0/developer/api-reference/objects/gift-card']
     },
 
     // Order features
@@ -65,19 +65,19 @@ const features: SelfHostedFrameworkInfo = {
     adminCreatedOrders: { value: { support: 'full' } },
     multipleFulfillments: { value: { support: 'full' } },
     returns: { value: { support: 'unknown' } },
-    invoiceGeneration: { value: { support: 'full' }, url: 'https://docs.saleor.io/docs/3.0/developer/api-reference/mutations/invoice-create' },
+    invoiceGeneration: { value: { support: 'full' }, urls: ['https://docs.saleor.io/docs/3.0/developer/api-reference/mutations/invoice-create'] },
 
     // Customer features
     customerAccounts: { value: { support: 'full' } },
-    customerMultipleAddresses: { value: { support: 'full' }, url: 'https://docs.saleor.io/docs/2.9.0/dashboard/customers#managing-customer-addresses' },
-    customerOrderHistory: { value: { support: 'full' }, url: 'https://docs.saleor.io/docs/2.9.0/dashboard/customers#customer-orders-and-history' },
-    customerGroups: { value: { support: 'none' }, url: 'https://github.com/saleor/saleor/issues/4048' },
-    thirdPartyAuth: { value: { support: 'none' }, url: 'https://github.com/saleor/saleor/issues/5119' },
+    customerMultipleAddresses: { value: { support: 'full' }, urls: ['https://docs.saleor.io/docs/2.9.0/dashboard/customers#managing-customer-addresses'] },
+    customerOrderHistory: { value: { support: 'full' }, urls: ['https://docs.saleor.io/docs/2.9.0/dashboard/customers#customer-orders-and-history'] },
+    customerGroups: { value: { support: 'none' }, urls: ['https://github.com/saleor/saleor/issues/4048'] },
+    thirdPartyAuth: { value: { support: 'none' }, urls: ['https://github.com/saleor/saleor/issues/5119'] },
     wishlists: { value: { support: 'unknown' } },
 
     // Administration features
     adminInterface: { value: { support: 'full' } },
-    sso: { value: { support: 'paid-plugin' }, url: 'https://github.com/saleor/saleor/discussions/7413' },
+    sso: { value: { support: 'paid-extension' }, urls: ['https://github.com/saleor/saleor/discussions/7413'] },
     adminInterfaceIsThemeable: { value: { support: 'none' } },
     adminInterfaceLocalizable: { value: { support: 'full' } },
     roleBasedAccessControl: { value: { support: 'partial' }, note: 'Can choose from a selection of pre-defined roles' }

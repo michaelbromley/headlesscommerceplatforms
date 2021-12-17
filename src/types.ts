@@ -1,5 +1,5 @@
-export type WithOptionalNote<T> = { value: T; note?: string; url?: string; }
-export type SupportLevel = 'full' | 'partial' | 'paid-plugin' | 'free-plugin'  | 'none' | 'unknown';
+export type WithOptionalNote<T> = { value: T; note?: string; urls?: string[]; }
+export type SupportLevel = 'full' | 'partial' | 'paid-extension' | 'free-extension'  | 'none' | 'unknown';
 export type FeatureItem = WithOptionalNote<{ support: SupportLevel; }>;
 
 export interface FeatureList {

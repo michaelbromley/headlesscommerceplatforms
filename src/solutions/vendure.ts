@@ -36,7 +36,7 @@ const features: SelfHostedFrameworkInfo = {
     promotions: { value: { support: 'full' } },
     voucherCodes: { value: { support: 'full' } },
     freeShipping: { value: { support: 'full' } },
-    giftCards: { value: { support: 'paid-plugin' } },
+    giftCards: { value: { support: 'paid-extension' } },
 
     // Order features
     guestCheckout: { value: { support: 'full' } },
@@ -59,27 +59,27 @@ const features: SelfHostedFrameworkInfo = {
     customerGroups: { value: { support: 'full' } },
     thirdPartyAuth: {
         value: { support: 'full' },
-        url: 'https://www.vendure.io/docs/developer-guide/authentication/#'
+        urls: ['https://www.vendure.io/docs/developer-guide/authentication/#']
     },
-    wishlists: { value: { support: 'paid-plugin' } },
+    wishlists: { value: { support: 'paid-extension' } },
 
     // Administration features
     adminInterface: {
         value: { support: 'full' },
-        url: 'https://www.vendure.io/docs/typescript-api/admin-ui-plugin/'
+        urls: ['https://www.vendure.io/docs/typescript-api/admin-ui-plugin/']
     },
     sso: {
         value: { support: 'full' },
-        url: 'https://www.vendure.io/docs/developer-guide/authentication/#'
+        urls: ['https://www.vendure.io/docs/developer-guide/authentication/#']
     },
     adminInterfaceIsThemeable: {
         value: { support: 'full' },
-        url: 'https://www.vendure.io/docs/plugins/extending-the-admin-ui/admin-ui-theming-branding/'
+        urls: ['https://www.vendure.io/docs/plugins/extending-the-admin-ui/admin-ui-theming-branding/']
     },
     adminInterfaceLocalizable: {
         value: { support: 'full' },
         note: '13+ languages supported out-of-the-box, custom translations can be added',
-        url: 'https://www.vendure.io/docs/plugins/extending-the-admin-ui/adding-ui-translations/'
+        urls: ['https://www.vendure.io/docs/plugins/extending-the-admin-ui/adding-ui-translations/']
     },
     roleBasedAccessControl: { value: { support: 'full' } }
 };

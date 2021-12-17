@@ -10,17 +10,17 @@ const features: SelfHostedFrameworkInfo = {
     supportedDatabases: {
         value: ['MySQL'],
         note: 'Other DB supported but migration support only for MySQL',
-        url: 'https://docs.sylius.com/en/latest/book/installation/requirements.html?highlight=database'
+        urls: ['https://docs.sylius.com/en/latest/book/installation/requirements.html?highlight=database']
     },
-    storefrontApi: { value: ['REST'], url: 'https://master.demo.sylius.com/api/v2/docs' },
-    adminApi: { value: ['REST'], url: 'https://master.demo.sylius.com/api/v2/docs' },
+    storefrontApi: { value: ['REST'], urls: ['https://master.demo.sylius.com/api/v2/docs'] },
+    adminApi: { value: ['REST'], urls: ['https://master.demo.sylius.com/api/v2/docs'] },
 
     // Inventory features
     productVariants: { value: { support: 'full' } },
     configurableProducts: { value: { support: 'unknown' } },
     bundleProducts: { value: { support: 'unknown' } },
     stockTracking: { value: { support: 'unknown' } },
-    multiWarehouse: { value: { support: 'paid-plugin' }, url: 'https://sylius.com/plus/' },
+    multiWarehouse: { value: { support: 'paid-extension' }, urls: ['https://sylius.com/plus/'] },
     productSearch: { value: { support: 'unknown' } },
     facetedSearch: { value: { support: 'unknown' } },
     productCategories: { value: { support: 'unknown' } },
@@ -29,7 +29,7 @@ const features: SelfHostedFrameworkInfo = {
     assetManagement: { value: { support: 'unknown' } },
 
     // Localization features
-    multiStore: { value: { support: 'paid-plugin' }, url: 'https://sylius.com/plus/' },
+    multiStore: { value: { support: 'paid-extension' }, urls: ['https://sylius.com/plus/'] },
     multiCurrency: { value: { support: 'unknown' } },
     multiLanguage: { value: { support: 'full' } },
 
@@ -37,14 +37,14 @@ const features: SelfHostedFrameworkInfo = {
     promotions: { value: { support: 'full' } },
     voucherCodes: { value: { support: 'full' } },
     freeShipping: { value: { support: 'full' } },
-    giftCards: { value: { support: 'none' }, url: 'https://github.com/Sylius/Sylius/issues/10127' },
+    giftCards: { value: { support: 'none' }, urls: ['https://github.com/Sylius/Sylius/issues/10127'] },
 
     // Order features
     guestCheckout: { value: { support: 'unknown' } },
     orderProcessIsConfigurable: { value: { support: 'unknown' } },
     adminCreatedOrders: { value: { support: 'unknown' } },
-    multipleFulfillments: { value: { support: 'paid-plugin' }, url: 'https://sylius.com/plus/' },
-    returns: { value: { support: 'paid-plugin' }, url: 'https://sylius.com/plus/' },
+    multipleFulfillments: { value: { support: 'paid-extension' }, urls: ['https://sylius.com/plus/'] },
+    returns: { value: { support: 'paid-extension' }, urls: ['https://sylius.com/plus/'] },
     invoiceGeneration: { value: { support: 'unknown' } },
 
     // Customer features
@@ -60,7 +60,7 @@ const features: SelfHostedFrameworkInfo = {
     sso: { value: { support: 'unknown' } },
     adminInterfaceIsThemeable: { value: { support: 'unknown' } },
     adminInterfaceLocalizable: { value: { support: 'unknown' } },
-    roleBasedAccessControl: { value: { support: 'paid-plugin' }, url: 'https://sylius.com/plus/' }
+    roleBasedAccessControl: { value: { support: 'paid-extension' }, urls: ['https://sylius.com/plus/'] }
 };
 
 export default features;

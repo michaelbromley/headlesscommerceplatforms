@@ -18,16 +18,16 @@ const features: SelfHostedFrameworkInfo = {
     stockTracking: { value: { support: 'full' } },
     multiWarehouse: { value: { support: 'none' } },
     productSearch: {
-        value: { support: 'free-plugin' },
-        url: 'https://docs.medusajs.com/add-plugins/meilisearch'
+        value: { support: 'free-extension' },
+        urls: ['https://docs.medusajs.com/add-plugins/meilisearch']
     },
     facetedSearch: {
-        value: { support: 'free-plugin' },
-        url: 'https://docs.medusajs.com/add-plugins/meilisearch'
+        value: { support: 'free-extension' },
+        urls: ['https://docs.medusajs.com/add-plugins/meilisearch']
     },
     productCategories: {
         value: { support: 'full' },
-        url: 'https://docs.medusajs.com/api/admin/collection/'
+        urls: ['https://docs.medusajs.com/api/admin/collection/']
     },
     customAttributes: { value: { support: 'none' } },
     tieredPricing: { value: { support: 'unknown' } },
@@ -39,15 +39,15 @@ const features: SelfHostedFrameworkInfo = {
     multiLanguage: { value: { support: 'none' } },
 
     // Promotion & marketing features
-    promotions: { value: { support: 'full' }, url: 'https://docs.medusajs.com/api/admin/discount' },
+    promotions: { value: { support: 'full' }, urls: ['https://docs.medusajs.com/api/admin/discount'] },
     voucherCodes: {
         value: { support: 'full' },
-        url: 'https://docs.medusajs.com/api/admin/discount'
+        urls: ['https://docs.medusajs.com/api/admin/discount']
     },
     freeShipping: {
         value: { support: 'none' }
     },
-    giftCards: { value: { support: 'full' }, url: 'https://docs.medusajs.com/api/admin/gift-card' },
+    giftCards: { value: { support: 'full' }, urls: ['https://docs.medusajs.com/api/admin/gift-card'] },
 
     // Order features
     guestCheckout: { value: { support: 'unknown' } },
@@ -56,7 +56,7 @@ const features: SelfHostedFrameworkInfo = {
     adminCreatedOrders: { value: { support: 'full' } },
     returns: {
         value: { support: 'full' },
-        url: 'https://docs.medusajs.com/guides/fulfillment-api'
+        urls: ['https://docs.medusajs.com/guides/fulfillment-api']
     },
     invoiceGeneration: { value: { support: 'unknown' } },
 
@@ -67,8 +67,8 @@ const features: SelfHostedFrameworkInfo = {
     customerGroups: { value: { support: 'none' } },
     thirdPartyAuth: { value: { support: 'unknown' } },
     wishlists: {
-        value: { support: 'free-plugin' },
-        url: 'https://github.com/medusajs/medusa/tree/master/packages/medusa-plugin-wishlist'
+        value: { support: 'free-extension' },
+        urls: ['https://github.com/medusajs/medusa/tree/master/packages/medusa-plugin-wishlist']
     },
 
     // Administration features
