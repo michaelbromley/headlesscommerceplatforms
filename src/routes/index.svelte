@@ -25,10 +25,21 @@
     import ComparisonTable from '$lib/ComparisonTable.svelte';
     import EditForm from '$lib/EditForm.svelte';
     export let table;
+    let description = 'A community-driven feature comparison of modern headless e-commerce platforms';
 </script>
 
 <svelte:head>
     <title>Headless Commerce Platforms</title>
+    <meta name="description" content={description} />
+    <meta name="twitter:card" content='summary_large_image' />
+    <meta name="twitter:handle" content='@michlbrmly' />
+    <meta property="og:url" content='https://headlesscommerceplatforms.com' />
+    <meta property="og:type" content='website' />
+    <meta property="og:title" content='Headless Commerce Platforms' />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content='/banner.jpg' />
+    <meta property="og:image:width" content='877' />
+    <meta property="og:image:height" content='438' />
 </svelte:head>
 
 <ComparisonTable {table} />
