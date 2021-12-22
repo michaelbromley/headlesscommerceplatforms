@@ -10,7 +10,6 @@
 </main>
 
 <footer>
-    <p><a href="https://github.com/michaelbromley/headlesscommerceplatforms">Source on GitHub</a></p>
 </footer>
 
 <style>
