@@ -35,7 +35,7 @@
     <meta name="twitter:title" content='Headless Commerce Platforms' />
     <meta name="twitter:handle" content='@michlbrmly' />
     <meta name="twitter:description" content={description} />
-    <meta name="twitter:image" content='/banner.jpg' />
+    <meta name="twitter:image" content='/banner.jpg?1' />
     <meta property="og:url" content='https://headlesscommerceplatforms.com' />
     <meta property="og:type" content='website' />
     <meta property="og:title" content='Headless Commerce Platforms' />
