@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="description" content="Svelte demo app" />
-		<link rel="icon" href="/favicon.png" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		%svelte.head%
-	</head>
-	<body>
-		<div id="svelte">%svelte.body%</div>
-	</body>
+    <head>
+        <title>Headless Commerce Platforms</title>
+        <meta charset="utf-8" />
+        <meta name="description" content="Svelte demo app" />
+        <link rel="icon" href="/favicon.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        %svelte.head%
+    </head>
+    <body>
+        <div id="svelte">%svelte.body%</div>
+    </body>
+    <form class="hidden" data-netlify="true" name='feature-correction'>
+        <input type="text" name="emailAddress" />
+        <input type="text" name="solutionName" />
+        <input type="text" name="feature" />
+        <input type="text" name="supportLevel" />
+        <input type="text" name="notes" />
+    </form>
 </html>
