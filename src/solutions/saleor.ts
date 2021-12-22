@@ -104,7 +104,8 @@ const features: SelfHostedFrameworkInfo = {
         urls: ['https://docs.saleor.io/docs/2.9.0/dashboard/customers#customer-orders-and-history']
     },
     customerGroups: {
-        value: { support: 'none' },
+        value: { support: 'partial' },
+        note: 'Can approximate by assigning to channels or using metadata fields',
         urls: ['https://github.com/saleor/saleor/issues/4048']
     },
     thirdPartyAuth: {
