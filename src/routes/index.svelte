@@ -24,15 +24,15 @@
 <script lang="ts">
     import ComparisonTable from '$lib/ComparisonTable.svelte';
     import EditForm from '$lib/EditForm.svelte';
-	export let table;
-
+    export let table;
 </script>
 
 <svelte:head>
     <title>Home</title>
 </svelte:head>
 
-<ComparisonTable {table}></ComparisonTable>
-<EditForm></EditForm>
+<ComparisonTable {table} />
+<EditForm />
+
 <style>
 </style>

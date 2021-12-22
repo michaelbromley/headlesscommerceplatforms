@@ -14,11 +14,11 @@
 <div class="flex flex-col text-sm">
     <div class="-my-2  sm:-mx-6 lg:-mx-8">
         <div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
-            <div class="shadow border-b border-gray-200 sm:rounded-lg">
+            <div class="shadow border-b border-gray-200 p-1 bg-white sm:rounded-lg">
                 <table
-                    class="relative flex flex-row flex-no-wrap min-w-full divide-y divide-gray-200"
+                    class="relative flex flex-row flex-no-wrap min-w-full divide-y divide-gray-200 bg-white bg-opacity-80"
                 >
-                    <tbody class="bg-white w-full divide-y divide-gray-200">
+                    <tbody class="w-full divide-y divide-gray-200">
                         <tr class="hidden sm:table-row"
                             ><td
                                 class="px-2 py-2 sm:px-5 sm:py-3 whitespace-nowrap sticky left-0 bg-gray-100"
