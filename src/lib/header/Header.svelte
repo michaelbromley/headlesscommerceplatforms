@@ -22,7 +22,8 @@
             />
         </svg>
         button by the feature. Alternatively, you can create a pull request to the
-        <a href="https://github.com/michaelbromley/headlesscommerceplatforms" class='text-yellow-200 hover:text-yellow-300'>source repository</a>.
+        <a href="https://github.com/michaelbromley/headlesscommerceplatforms" class='text-yellow-200 hover:text-yellow-300'>source repository</a>
+        or <a href='https://github.com/michaelbromley/headlesscommerceplatforms/issues'>open an issue</a>.
     </p>
 </header>
 
