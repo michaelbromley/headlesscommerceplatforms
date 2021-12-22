@@ -87,7 +87,7 @@ const features: SelfHostedFrameworkInfo = {
     orderProcessIsConfigurable: { value: { support: 'unknown' } },
     adminCreatedOrders: { value: { support: 'full' } },
     multipleFulfillments: { value: { support: 'full' } },
-    returns: { value: { support: 'unknown' } },
+    returns: { value: { support: 'full' }, urls: ['https://docs.saleor.io/docs/3.0/dashboard/orders'] },
     invoiceGeneration: {
         value: { support: 'full' },
         urls: ['https://docs.saleor.io/docs/3.0/developer/api-reference/mutations/invoice-create']
