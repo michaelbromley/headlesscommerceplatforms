@@ -13,39 +13,40 @@ const features: SelfHostedFrameworkInfo = {
 
     // Inventory features
     productVariants: { value: { support: 'full' } },
-    configurableProducts: { value: { support: 'full' } },
+    configurableProducts: { value: { support: 'full' }, urls: ['https://www.vendure.io/docs/developer-guide/customizing-models/#configurable-order-products'] },
     bundleProducts: { value: { support: 'none' } },
-    stockTracking: { value: { support: 'full' } },
+    stockTracking: { value: { support: 'full' }, urls: ['https://www.vendure.io/docs/developer-guide/stock-control/'] },
     multiWarehouse: { value: { support: 'none' } },
     productSearch: { value: { support: 'full' } },
-    facetedSearch: { value: { support: 'full' } },
-    productCategories: { value: { support: 'full' } },
-    customAttributes: { value: { support: 'full' } },
+    facetedSearch: { value: { support: 'full' }, urls: ['https://www.vendure.io/docs/user-guide/catalog/facets/'] },
+    productCategories: { value: { support: 'full' }, urls: ['https://www.vendure.io/docs/user-guide/catalog/collections/'] },
+    customAttributes: { value: { support: 'full' }, urls: ['https://www.vendure.io/docs/developer-guide/customizing-models/'] },
     tieredPricing: {
         value: { support: 'partial' },
-        note: 'Can be implemented with custom strategy'
+        note: 'Can be implemented with custom strategy',
+        urls: ['https://www.vendure.io/docs/typescript-api/orders/order-item-price-calculation-strategy/']
     },
-    assetManagement: { value: { support: 'full' } },
+    assetManagement: { value: { support: 'full' }, urls: ['https://www.vendure.io/docs/typescript-api/asset-server-plugin/'] },
 
     // Localization features
-    multiStore: { value: { support: 'full' } },
-    multiCurrency: { value: { support: 'full' } },
-    multiLanguage: { value: { support: 'full' } },
+    multiStore: { value: { support: 'full' }, urls: ['https://www.vendure.io/docs/developer-guide/channels/'] },
+    multiCurrency: { value: { support: 'full' }, urls: ['https://www.vendure.io/docs/developer-guide/channels/'] },
+    multiLanguage: { value: { support: 'full' }, urls: ['https://www.vendure.io/docs/typescript-api/entities/interfaces/#translatable'] },
 
     // Promotion & marketing features
-    promotions: { value: { support: 'full' } },
-    voucherCodes: { value: { support: 'full' } },
-    freeShipping: { value: { support: 'full' } },
+    promotions: { value: { support: 'full' }, urls: ['https://www.vendure.io/docs/developer-guide/promotions/'] },
+    voucherCodes: { value: { support: 'full' }, urls: ['https://www.vendure.io/docs/developer-guide/promotions/'] },
+    freeShipping: { value: { support: 'full' }, urls: ['https://www.vendure.io/docs/developer-guide/promotions/'] },
     giftCards: { value: { support: 'paid-extension' } },
 
     // Order features
-    guestCheckout: { value: { support: 'full' } },
-    orderProcessIsConfigurable: { value: { support: 'full' } },
+    guestCheckout: { value: { support: 'full' }, urls: ['https://www.vendure.io/docs/user-guide/customers/'] },
+    orderProcessIsConfigurable: { value: { support: 'full' }, urls: ['https://www.vendure.io/docs/developer-guide/customizing-the-order-process/'] },
     adminCreatedOrders: {
         value: { support: 'none' },
         note: 'Can be implemented as a custom plugin'
     },
-    multipleFulfillments: { value: { support: 'full' } },
+    multipleFulfillments: { value: { support: 'full' }, urls: ['https://www.vendure.io/docs/developer-guide/shipping/#fulfillments'] },
     returns: {
         value: { support: 'partial' },
         note: 'Data model supports it, but GraphQL mutation must be implemented by user'
@@ -53,10 +54,10 @@ const features: SelfHostedFrameworkInfo = {
     invoiceGeneration: { value: { support: 'none' } },
 
     // Customer features
-    customerAccounts: { value: { support: 'full' } },
-    customerMultipleAddresses: { value: { support: 'full' } },
-    customerOrderHistory: { value: { support: 'full' } },
-    customerGroups: { value: { support: 'full' } },
+    customerAccounts: { value: { support: 'full' }, urls: ['https://www.vendure.io/docs/storefront/shop-api-guide/#customer-account-management'] },
+    customerMultipleAddresses: { value: { support: 'full' }, urls: ['https://www.vendure.io/docs/graphql-api/admin/object-types/#customer'] },
+    customerOrderHistory: { value: { support: 'full' }, urls: ['https://www.vendure.io/docs/graphql-api/admin/object-types/#customer'] },
+    customerGroups: { value: { support: 'full' }, urls: ['https://www.vendure.io/docs/user-guide/customers/#customer-groups'] },
     thirdPartyAuth: {
         value: { support: 'full' },
         urls: ['https://www.vendure.io/docs/developer-guide/authentication/#']
@@ -81,7 +82,7 @@ const features: SelfHostedFrameworkInfo = {
         note: '13+ languages supported out-of-the-box, custom translations can be added',
         urls: ['https://www.vendure.io/docs/plugins/extending-the-admin-ui/adding-ui-translations/']
     },
-    roleBasedAccessControl: { value: { support: 'full' } }
+    roleBasedAccessControl: { value: { support: 'full' }, urls: ['https://www.vendure.io/docs/user-guide/settings/administrators-roles/'] }
 };
 
 export default features;
