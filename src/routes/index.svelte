@@ -28,7 +28,7 @@
 </script>
 
 <svelte:head>
-    <title>Home</title>
+    <title>Headless Commerce Platforms</title>
 </svelte:head>
 
 <ComparisonTable {table} />
