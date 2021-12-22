@@ -32,6 +32,7 @@
     <title>Headless Commerce Platforms</title>
     <meta name="description" content={description} />
     <meta name="twitter:card" content='summary_large_image' />
+    <meta name="twitter:title" content='Headless Commerce Platforms' />
     <meta name="twitter:handle" content='@michlbrmly' />
     <meta property="og:url" content='https://headlesscommerceplatforms.com' />
     <meta property="og:type" content='website' />
