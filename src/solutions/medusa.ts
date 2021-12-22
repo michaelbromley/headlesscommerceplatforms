@@ -13,7 +13,7 @@ const features: SelfHostedFrameworkInfo = {
 
     // Inventory features
     productVariants: { value: { support: 'full' } },
-    configurableProducts: { value: { support: 'unknown' } },
+    configurableProducts: { value: { support: 'partial' }, note: 'There is a metadata field which is a jsonb field that allows to store any data you want' },
     bundleProducts: { value: { support: 'unknown' } },
     stockTracking: { value: { support: 'full' } },
     multiWarehouse: { value: { support: 'none' } },
@@ -29,7 +29,7 @@ const features: SelfHostedFrameworkInfo = {
         value: { support: 'full' },
         urls: ['https://docs.medusajs.com/api/admin/collection/']
     },
-    customAttributes: { value: { support: 'none' } },
+    customAttributes: { value: { support: 'partial' }, note: 'There is a metadata field which is a jsonb field that allows to store any data you want' },
     tieredPricing: { value: { support: 'unknown' } },
     assetManagement: { value: { support: 'none' } },
 
