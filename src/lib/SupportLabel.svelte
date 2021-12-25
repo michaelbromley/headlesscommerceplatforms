@@ -12,7 +12,7 @@
             case 'free-extension':
                 return 'bg-indigo-100 text-indigo-800';
             case 'paid-extension':
-                return 'bg-blue-100 text-blue-800';
+                return 'bg-blue-500 text-white';
             case 'none':
                 return 'bg-red-100 text-red-800';
             case 'unknown':
