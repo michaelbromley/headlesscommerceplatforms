@@ -100,7 +100,7 @@ export interface SelfHostedFrameworkInfo extends SolutionInfo {
 
 }
 
-export interface SaaSInfo {
+export interface SaaSInfo extends SolutionInfo {
     type: 'saas';
 }
 

@@ -2,7 +2,7 @@
     import { page } from '$app/stores';
 </script>
 
-<header class="text-center pt-6 mb-12">
+<header class="text-center pt-6 mb-12 w-full ">
     <h1 class="text-3xl sm:text-5xl text-white font-light">Headless Commerce Platforms</h1>
     <p class="text-gray-200 text-lg mt-4">A comparison of headless e-commerce platforms</p>
     <p class="text-gray-200 mt-4 max-w-2xl mx-auto text-left border-t pt-4 border-purple-500">
