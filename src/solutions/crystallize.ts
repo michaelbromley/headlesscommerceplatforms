@@ -70,19 +70,19 @@ const template: SelfHostedFrameworkInfo = {
         urls: ['https://crystallize.com/learn/concepts/pim/multilingual']
     },
     promotions: {
-        value: { support: 'full' },
-        note: 'Full support for custom-built solution',
+        value: { support: 'partial' },
+        note: 'Available and fully supported in our open source boilerplates',
         urls: ['https://crystallize.com/learn/livestreams/shop-examples/gift-cards-and-vouchers']
     },
     voucherCodes: {
-        value: { support: 'full' },
-        note: 'Full support for custom-built solution',
+        value: { support: 'partial' },
+        note: 'Available and fully supported in our open source boilerplates',
         urls: ['https://crystallize.com/learn/livestreams/shop-examples/gift-cards-and-vouchers']
     },
     freeShipping: { value: { support: 'full' }, note: '', urls: [] },
     giftCards: {
-        value: { support: 'full' },
-        note: 'Full support for custom-built solution',
+        value: { support: 'partial' },
+        note: 'Available and fully supported in our open source boilerplates',
         urls: ['https://crystallize.com/learn/livestreams/shop-examples/gift-cards-and-vouchers']
     },
     guestCheckout: { value: { support: 'full' }, note: '', urls: [] },
@@ -93,7 +93,7 @@ const template: SelfHostedFrameworkInfo = {
     },
     adminCreatedOrders: {
         value: { support: 'partial' },
-        note: '',
+        note: 'Supported through service boilerplate, which interacts with PIM system',
         urls: [
             'https://crystallize.com/learn/developer-guides/order-api/creating-orders',
             'https://crystallize.com/learn/developer-guides/order-api'
@@ -110,17 +110,17 @@ const template: SelfHostedFrameworkInfo = {
     returns: { value: { support: 'full' }, note: '', urls: [] },
     invoiceGeneration: {
         value: { support: 'partial' },
-        note: 'Full support for custom-built solution',
+        note: 'Available and fully supported in our open source boilerplates',
         urls: []
     },
     customerAccounts: {
-        value: { support: 'partial' },
-        note: 'Full support for custom-built solution',
+        value: { support: 'full' },
+        note: 'Fully supported in our open source boilerplates',
         urls: []
     },
     customerMultipleAddresses: {
         value: { support: 'full' },
-        note: 'Full support for custom-built solution',
+        note: '',
         urls: []
     },
     customerOrderHistory: { value: { support: 'full' }, note: '', urls: [] },
@@ -139,7 +139,7 @@ const template: SelfHostedFrameworkInfo = {
     },
     adminInterfaceIsThemeable: {
         value: { support: 'partial' },
-        note: 'Full support for custom-built solution',
+        note: 'Users can add their logo',
         urls: []
     },
     adminInterfaceLocalizable: { value: { support: 'none' }, note: '', urls: [] },
