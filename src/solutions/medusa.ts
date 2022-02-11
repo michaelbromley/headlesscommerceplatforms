@@ -29,7 +29,7 @@ const features: SelfHostedFrameworkInfo = {
         value: { support: 'full' },
         urls: ['https://docs.medusajs.com/api/admin/collection/']
     },
-    customAttributes: { value: { support: 'partial' }, note: 'There is a metadata field which is a jsonb field that allows to store any data you want' },
+    customAttributes: { value: { support: 'partial' }, urls: ['https://github.com/adrien2p/medusa-extender'], note: 'There is a metadata field which is a jsonb field that allows to store any data you want. Also see community-maintained "medusa-extender"' },
     tieredPricing: { value: { support: 'unknown' } },
     assetManagement: { value: { support: 'none' } },
 
